@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<h1>Product Shop</h1>
+		<h1>Product Shop Wiśniówka</h1>
         <?php
             session_start();
             if (!isset($_SESSION['logged'])) {
