@@ -7,7 +7,9 @@
             $db = new Db();             
             return $db->getContentById($id_key);
 
-
+        static function sayHello(){
+            echo "Hello world";
+        }
 
 
 
